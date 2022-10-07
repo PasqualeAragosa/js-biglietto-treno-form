@@ -1,0 +1,14 @@
+body {
+    background-color: rgba(15, 123, 15, 0.744);
+}
+
+.ticket_calculation {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+

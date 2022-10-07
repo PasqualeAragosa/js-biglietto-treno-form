@@ -19,7 +19,7 @@ buttonTicket.addEventListener('click',
             check = userKm * priceForKm;
         }
         
-        document.writeln("Prezzo Biglietto: €", check.toFixed(2));
+        document.getElementById('price_ticket').innerHTML = "Prezzo Biglietto: €" + check.toFixed(2);
     }
 )
 
